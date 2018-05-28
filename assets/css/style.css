@@ -31,7 +31,6 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
-  box-align: right;
   line-height: 60px;
 }
 ul li a {
@@ -65,15 +64,15 @@ ul li a:hover {
 }
 #containerTitle {
   color: #4aaaa5;
-  margin: 10px;
-  padding-left: 10px;
+  margin: 10px 20px;
 }
 img {
   float: left;
   padding: 20px;
 }
 hr {
-  width: 95%;
+  margin: 0 20px;
+  width: auto;
   height: 3px;
   color: #cccccc;
   background-color: #cccccc;
@@ -111,12 +110,18 @@ input[type="submit"] {
 input:focus {
   background-color: #cccccc;
 }
-.portfolioProjects {
+/* .portfolioProjects {
   width: 225px;
   height: 40px;
   margin: auto;
   color: #ffffff;
   background-color: #4aaaa5;
+} */
+.portfolioThumbnail {
+  float: none;
+}
+#portfolioGallery {
+  text-align: center;
 }
 footer {
   position: fixed;
@@ -128,3 +133,53 @@ footer {
   text-align: center;
   border-top: 5px solid #4aaaa5;
 }
+
+@media only screen and (max-width: 980px) {
+  .container {
+    background-color: lightblue;
+  }
+  .wrapper {
+    width: 80%;
+  }
+@media only screen and (max-width: 768px) {
+  .container {
+    background-color: red;
+  }
+  .wrapper {
+    width: 90%;
+  }
+@media only screen and (max-width: 640px) {
+  .container {
+    background-color: orange;
+  
+  }
+  .wrapper {
+    width: 90%;
+  }
+  nav .wrapper  {
+    margin: 0; 
+    width: 100%;
+    overflow: auto;
+  }
+  nav {
+    height: 100px;
+    text-align: center;
+  }
+  #nameBadge {
+    float: none;
+    line-height: 50px;
+    padding: 0;
+  }
+  ul {
+    float: none;
+    padding: 0;
+  }
+  ul li a:hover {
+    color: #5D2E16;
+    background-color: initial;
+  }
+  #profilePhoto {
+    float: none;
+    width: 90%;
+    height: auto;
+  }
