@@ -135,24 +135,15 @@ footer {
 }
 
 @media only screen and (max-width: 980px) {
-  .container {
-    background-color: lightblue;
-  }
   .wrapper {
     width: 80%;
   }
 @media only screen and (max-width: 768px) {
-  .container {
-    background-color: red;
   }
   .wrapper {
     width: 90%;
   }
 @media only screen and (max-width: 640px) {
-  .container {
-    background-color: orange;
-  
-  }
   .wrapper {
     width: 90%;
   }
