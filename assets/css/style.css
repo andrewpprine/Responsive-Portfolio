@@ -17,7 +17,7 @@ nav {
 #nameBadge {
   float: left;
   color: #ffffff;
-  background-color: #4aaaa5;
+  background-color: #ca8e0d;
   line-height: 60px;
   padding: 0 30px 0;
 
@@ -41,7 +41,7 @@ ul li a {
   padding: 0 10px;
 }
 ul li a:hover {
-  color: #4aaaa5;
+  color: #ca8e0d;
   background-color: #5D2E16;
 } 
 /* This makes the dividing lines between nav items, but breaks the hover animationb... 
@@ -63,7 +63,7 @@ ul li a:hover {
   border: 1px solid #dddddd;
 }
 #containerTitle {
-  color: #4aaaa5;
+  color: #ca8e0d;
   margin: 10px 20px;
 }
 img {
@@ -102,7 +102,7 @@ textarea {
   width: 100%;
 }
 input[type="submit"] {
-  background-color: #4aaaa5;
+  background-color: #ca8e0d;
   color: #ffffff;
   line-height: 30px;
   padding: 0 15px 0;
@@ -115,7 +115,7 @@ input:focus {
   height: 40px;
   margin: auto;
   color: #ffffff;
-  background-color: #4aaaa5;
+  background-color: #ca8e0d;
 } */
 .portfolioThumbnail {
   float: none;
@@ -131,7 +131,7 @@ footer {
   background-color: #666666;
   color: white;
   text-align: center;
-  border-top: 5px solid #4aaaa5;
+  border-top: 3px solid #ca8e0d;
 }
 
 @media only screen and (max-width: 980px) {
