@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Andrew Prine: Quite A Guy</title>
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <nav>
+  <head>
+    <title>Andrew Prine: Quite A Guy</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <h1 id="nameBadge">Andrew Prine</h1>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="wrapper">
-      <h1 id="nameBadge">Andrew Prine</h1>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class="container">
+        <h1 id="containerTitle">Contact</h1>
+        <hr />
+        <form action="mailto:andrewpprine@gmail.com">
+          Name<br />
+          <input
+            type="text"
+            name="name"
+            placeholder="John Q Public"
+          /><br /><br />
+          Email<br />
+          <input
+            type="text"
+            name="email"
+            placeholder="example@email.com"
+          /><br /><br />
+          Message<br />
+          <textarea
+            rows="4"
+            cols="auto"
+            name="message"
+            placeholder="I think you are good and/or bad."
+          ></textarea
+          ><br />
+          <!-- <input type="text" name="message"><br> -->
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
-  </nav>
-   
-  <div class="wrapper">
-    <div class="container">
-      <h1 id="containerTitle">Contact</h1>
-      <hr>
-      <form action="mailto:andrewpprine@gmail.com">
-        Name<br>
-        <input type="text" name="name" placeholder="John Q Public"><br><br>
-        Email<br>
-        <input type="text" name="email" placeholder="example@email.com"><br><br>
-        Message<br>
-        <textarea rows="5" cols="auto" name"message"></textarea><br>
-        <!-- <input type="text" name="message"><br> -->
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-   
-  <footer>Copyright ©</footer>
-</body>
+
+    <footer>Copyright ©</footer>
+  </body>
 </html>
